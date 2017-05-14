@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Price Plans Table Example</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Style -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <section class="price-plans-wrapper">
+       <div class="container">
+           <h1 class="text-center page-title">Price Plans Table</h1>
+           <div class="scrollable-container">
+                <table class="table fixed">
+                    <thead>
+                        <th></th>
+                        <th></th>
+                        <th>
+                            <div class="head-wrapper spark">
+                                <h3>Spark</h3>
+                                <span>Free</span>
+                                <p>Generous limits for hobbysts</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="head-wrapper flame">
+                                <h3>Flame</h3>
+                                <span>$25 per month</span>
+                                <p>Predicate pricing for growing apps</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="head-wrapper blaze">
+                                <h3>Blaze</h3>
+                                <span>Pay as you go</span>
+                                <p>Commodity pricing for apps at scale</p>
+                            </div>
+                        </th>
+                    </thead>
+                    <tbody>
+                        <tr class="included-row">
+                            <td colspan="2">
+                                <div><strong>Included Free</strong></div>
+                                <p class="text-capitalize">analytics, app indexing, authentication, cloud messaging, crash reporting, dynamic links, invites, notifications &amp; remote config</p>
+                            </td>
+                            <td>
+                                <div class="spark"><span class="glyphicon glyphicon-ok cgreen"></span></div>
+                            </td>
+                            <td>
+                                <div class="flame"><span class="glyphicon glyphicon-ok cgreen"></span></div>
+                            </td>
+                            <td>
+                                <div class="blaze"><span class="glyphicon glyphicon-ok cgreen"></span></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="4">
+                                <h4 class="text-capitalize">realtime database</h4>
+                            </td>
+                            <td>simultaneous connections</td>
+                            <td><div class="spark">100</div></td>
+                            <td><div class="flame">Unlimited<sup>1</sup></div></td>
+                            <td><div class="blaze">Unlimited<sup>1</sup></div></td>
+                        </tr>
+                        <tr>
+                            <td>GB stored</td>
+                            <td><div class="spark">1 GB</div></td>
+                            <td><div class="flame">2.5 GB</div></td>
+                            <td><div class="blaze">$5/GB</div></td>
+                        </tr>
+                        <tr>
+                            <td>GB downloaded</td>
+                            <td><div class="spark">10 GB/month</div></td>
+                            <td><div class="flame">20 GB/month</div></td>
+                            <td><div class="blaze">$1/GB</div></td>
+                        </tr>
+                        <tr>
+                            <td>Automated backups</td>
+                            <td><div class="spark"><span class="glyphicon glyphicon-remove cred"></span></div></td>
+                            <td><div class="flame"><span class="glyphicon glyphicon-remove cred"></span></div></td>
+                            <td><div class="blaze"><span class="glyphicon glyphicon-ok cgreen"></span></div></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="4">
+                                <h4 class="text-capitalize">Storage</h4>
+                            </td>
+                            <td>GB stored</td>
+                            <td><div class="spark">5 GB</div></td>
+                            <td><div class="flame">50 GB</div></td>
+                            <td><div class="blaze">$0.026/GB<sup>2</sup></div></td>
+                        </tr>
+                        <tr>
+                            <td>GB downloaded</td>
+                            <td><div class="spark">1 GB/day</div></td>
+                            <td><div class="flame">50 GB/month</div></td>
+                            <td><div class="blaze">$0.12/GB<sup>2</sup></div></td>
+                        </tr>
+                        <tr>
+                            <td>Upload operations</td>
+                            <td><div class="spark">20,000/day</div></td>
+                            <td><div class="flame">100,000/day</div></td>
+                            <td><div class="blaze">$0.10/thousand<sup>2</sup></div></td>
+                        </tr>
+                        <tr>
+                            <td>Download operations</td>
+                            <td><div class="spark">50,000/day</div></td>
+                            <td><div class="flame">250,000/day</div></td>
+                            <td><div class="blaze">$0.01/thousand<sup>2</sup></div></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">
+                                <h4 class="text-capitalize">Hosting</h4>
+                            </td>
+                            <td>GB stored</td>
+                            <td><div class="spark">1 GB</div></td>
+                            <td><div class="flame">10 GB</div></td>
+                            <td><div class="blaze">$0.026/GB</div></td>
+                        </tr>
+                        <tr>
+                            <td>GB transferred</td>
+                            <td><div class="spark">10 GB/month</div></td>
+                            <td><div class="flame">50 GB/month</div></td>
+                            <td><div class="blaze">$0.15/GB<sup>2</sup></div></td>
+                        </tr>
+                        <tr>
+                            <td>Custom domain hosting &amp; SSL</td>
+                            <td><div class="spark"><span class="glyphicon glyphicon-ok cgreen"></span></div></td>
+                            <td><div class="flame"><span class="glyphicon glyphicon-ok cgreen"></span></div></td>
+                            <td><div class="blaze"><span class="glyphicon glyphicon-ok cgreen"></span></div></td>
+                        </tr>
+                        <tr>
+                            <td><h4 class="text-capitalize">Test lab</h4></td>
+                            <td><span>daily quota or hourly rate</span></td>
+                            <td><div class="spark">15 tests/day<sup>3</sup></div></td>
+                            <td><div class="flame">15 tests/day<sup>3</sup></div></td>
+                            <td><div class="blaze">hourly, per device<sup>4</sup></div></td>
+                        </tr>
+                        <tr>
+                            <td><h4 class="text-capitalize">Google cloud platform</h4></td>
+                            <td><span>Use BigQuery &amp; other IaaS</span><sup>5</sup></td>
+                            <td><div class="spark"><span class="glyphicon glyphicon-remove cred"></span></div></td>
+                            <td><div class="flame"><span class="glyphicon glyphicon-remove cred"></span></div></td>
+                            <td><div class="blaze"><span class="glyphicon glyphicon-remove cred"></span></div></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+
+                            </td>
+                            <td>
+                                <div class="spark"><button type="button" class="btn btn-primary btn-plan text-uppercase">Start now</button></div>
+                            </td>
+                            <td>
+                                <div class="flame"><button type="button" class="btn btn-primary btn-plan text-uppercase">select plan</button></div>
+                            </td>
+                            <td>
+                                <div class="blaze"><button type="button" class="btn btn-primary btn-plan text-uppercase">select plan</button></div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+           </div>
+       </div>
+    </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

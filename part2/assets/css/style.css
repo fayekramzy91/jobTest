@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body {font-family: 'Roboto', sans-serif;}
+.page-title {
+    margin-bottom: 50px;
+    color: #78909c;
+}
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    vertical-align: middle;
+    padding: 0;
+}
+.table>tbody>tr>td:first-child {
+    text-align: left;
+}
+
+.table>tbody>tr>td[rowspan]+td {
+    text-align: left;
+}
+
+table>tbody>tr.included-row {
+    background-color: #fafbfd;
+}
+
+table>tbody>tr:first-child {
+    background-color: #e2f2f1;
+    color: #4b7e77;
+}
+
+.cgreen {
+    color: #4b7e77;
+}
+
+.cred {
+    color: #c73666;
+}
+
+.table>tbody h4 {
+    color: #5d95ce;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.table>thead>tr>th {padding: 0;width: 1%;border-bottom-width: 1px;vertical-align: bottom}
+
+table thead .head-wrapper {
+    padding: 15px;
+    margin-left: 25px;
+    color: #FFF;
+    background-color: #90a4ae;
+    box-shadow: 0px 4px 4px 0px #ccc;
+    text-align: center;
+}
+
+.head-wrapper.spark {
+    background-color: #29b6f6;
+}
+
+.head-wrapper.flame {
+    background-color: #78909c;
+}
+
+.table>tbody>tr.included-row>td {
+    padding: 15px;
+}
+
+.table tbody tr td .spark, 
+.table tbody tr td .flame, 
+.table tbody tr td .blaze {
+    margin-left: 25px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.table tbody tr td .spark {
+    background-color: #e1f3fb;
+}
+
+.table tbody tr td .flame, .table tbody tr td .blaze {
+    background-color: #f2f5f6;
+}
+
+.included-row td div {
+    background-color: transparent !important;
+}
+
+.btn-primary.btn-plan {
+    background-color: #039be5;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.3);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.head-wrapper h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.head-wrapper span {
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.head-wrapper p {
+    font-size: 12px;
+    font-weight: 400;
+}
